@@ -10,7 +10,7 @@
 <div class="row">
 	<div class="col-md-12">
 <br>
-
+ 
         @if (Auth::user()->tipo == 'admin')
 
               @include('administracion.home')
